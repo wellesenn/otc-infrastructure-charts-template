@@ -90,6 +90,7 @@ charts:
     repoURL: "https://nextcloud.github.io/helm/"
     targetRevision: "3.5.12"
     parameters:
-      ingress:
-        enabled: true
-        path: "/nextcloud"
+      - name: "ingress.enabled"
+        value: "true"
+      - name: "ingress.path"
+        value: "/nextcloud"
