@@ -92,4 +92,4 @@ charts:
     parameters:
       ingress:
         enabled: true
-        path: /nextcloud
+        path: "/nextcloud"
