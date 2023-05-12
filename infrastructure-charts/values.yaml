@@ -88,5 +88,5 @@ charts:
   nextcloud:
     namespace: nextcloud
     repoURL: "https://nextcloud.github.io/helm/"
-    targetRevision: "main"
-    path: "nextcloud/nextcloud"
+    targetRevision: "3.5.12"
+    
