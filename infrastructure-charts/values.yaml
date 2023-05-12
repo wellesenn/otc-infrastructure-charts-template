@@ -91,5 +91,5 @@ charts:
     targetRevision: "3.5.12"
     parameters:
       ingress:
-        enabled: false
+        enabled: true
         path: /nextcloud
