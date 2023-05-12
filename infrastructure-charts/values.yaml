@@ -84,3 +84,9 @@ charts:
   elastic-stack:
     namespace: monitoring
     targetRevision: "7.17.3-route-bugfix"
+
+  nextcloud:
+    namespace: nextcloud
+    repoURL: "https://nextcloud.github.io/helm/"
+    targetRevision: "main"
+    path: "nextcloud/nextcloud"
