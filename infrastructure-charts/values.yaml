@@ -89,4 +89,7 @@ charts:
     namespace: nextcloud
     repoURL: "https://nextcloud.github.io/helm/"
     targetRevision: "3.5.12"
-    
+    parameters:
+      ingress:
+        enabled: false
+        path: /nextcloud
